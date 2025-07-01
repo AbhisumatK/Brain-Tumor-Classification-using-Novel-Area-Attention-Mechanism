@@ -22,6 +22,33 @@ Implemented RESNet for Classification of Brain Tumour
 
 ---
 
+## Requiremants 
+
+# Core libraries
+numpy==1.25.0
+pandas==2.1.0
+
+# Image handling & plotting
+Pillow==10.0.0
+matplotlib==3.8.0
+scikit-learn==1.3.0
+imbalanced-learn==0.11.0
+
+# Deep learning
+tensorflow==2.16.1
+keras-tuner==1.4.0
+
+# Data download & management
+kagglehub==0.3.6
+
+# Utility/formatting
+tqdm==4.66.1
+
+# (Optional) If you're using notebooks
+notebook==7.0.2
+
+---
+
 ## How it works (the 30‑second tour)
 1. **Data download** – one‑liner via `kagglehub` (no more ZIP‑juggling).  
 2. **Pre‑processing** – resizing, normalising, and light augmentation (rotation ±15°, flips, yadda yadda).  
@@ -49,3 +76,10 @@ python -c "import kagglehub, os; print('Downloading...'); kagglehub.dataset_down
 
 # 5. Fire up the notebook
 jupyter notebook notebook/Brain_Tumour_Detection.ipynb
+```
+
+## Disclaimer
+
+This repo is RESEARCH ONLY.
+Do not use it to diagnose real patients or pets.
+Consult a qualified radiologist.
