@@ -22,30 +22,18 @@ Implemented RESNet for Classification of Brain Tumour
 
 ---
 
-## Requiremants 
+## Requirements 
 
-# Core libraries
 numpy==1.25.0
 pandas==2.1.0
-
-# Image handling & plotting
 Pillow==10.0.0
 matplotlib==3.8.0
 scikit-learn==1.3.0
 imbalanced-learn==0.11.0
-
-# Deep learning
 tensorflow==2.16.1
 keras-tuner==1.4.0
-
-# Data download & management
 kagglehub==0.3.6
-
-# Utility/formatting
 tqdm==4.66.1
-
-# (Optional) If you're using notebooks
-notebook==7.0.2
 
 ---
 
